@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE7FB6B9200C7EE400187B8F /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FB6B8200C7EE400187B8F /* LeftViewController.swift */; };
+		AE7FB6BE200DA1B000187B8F /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FB6BD200DA1B000187B8F /* RevealViewController.swift */; };
 		AEB68C672003635F00B11FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB68C662003635F00B11FB0 /* AppDelegate.swift */; };
 		AEB68C692003635F00B11FB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB68C682003635F00B11FB0 /* ViewController.swift */; };
 		AEB68C6C2003635F00B11FB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB68C6A2003635F00B11FB0 /* Main.storyboard */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE7FB6B8200C7EE400187B8F /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		AE7FB6BC200CA78D00187B8F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		AE7FB6BD200DA1B000187B8F /* RevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
 		AEB68C632003635F00B11FB0 /* RevealPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevealPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB68C662003635F00B11FB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB68C682003635F00B11FB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,9 +66,12 @@
 				AEB68C662003635F00B11FB0 /* AppDelegate.swift */,
 				AEB68C682003635F00B11FB0 /* ViewController.swift */,
 				AEB68C6A2003635F00B11FB0 /* Main.storyboard */,
+				AE7FB6BD200DA1B000187B8F /* RevealViewController.swift */,
+				AE7FB6B8200C7EE400187B8F /* LeftViewController.swift */,
 				AEB68C6D2003635F00B11FB0 /* Assets.xcassets */,
 				AEB68C6F2003635F00B11FB0 /* LaunchScreen.storyboard */,
 				AEB68C722003635F00B11FB0 /* Info.plist */,
+				AE7FB6BC200CA78D00187B8F /* Bridging-Header.h */,
 			);
 			path = RevealPractice;
 			sourceTree = "<group>";
@@ -150,6 +158,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB68C692003635F00B11FB0 /* ViewController.swift in Sources */,
+				AE7FB6B9200C7EE400187B8F /* LeftViewController.swift in Sources */,
+				AE7FB6BE200DA1B000187B8F /* RevealViewController.swift in Sources */,
 				AEB68C672003635F00B11FB0 /* AppDelegate.swift in Sources */,
 				AEB68C7B2003645F00B11FB0 /* SWRevealViewController.m in Sources */,
 			);
@@ -293,6 +303,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ittmama.com.RevealPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/RevealPractice/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +318,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ittmama.com.RevealPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/RevealPractice/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
