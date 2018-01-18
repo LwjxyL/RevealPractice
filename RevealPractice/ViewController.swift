@@ -13,12 +13,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "ddsds"
-        self.navigationItem.leftBarButtonItem = UIBarButtonItem.init(image: UIImage.init(named: "ress_icon"), style: .bordered, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)))
-        
+        self.title = "首页"
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem.item(imageName: "category", title: nil, target: self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)))
         self.revealViewController().rearViewRevealWidth = 109
         self.revealViewController().rearViewRevealOverdraw = 0
-        
     }
 
     override func didReceiveMemoryWarning() {

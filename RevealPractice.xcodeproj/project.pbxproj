@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE61FF722010715700173DCA /* NavigationBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61FF712010715700173DCA /* NavigationBar+Extension.swift */; };
+		AE61FF752010885700173DCA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61FF742010885700173DCA /* BaseNavigationController.swift */; };
+		AE61FF7720109C4C00173DCA /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE61FF7620109C4C00173DCA /* UIColor+Extension.swift */; };
 		AE7FB6B9200C7EE400187B8F /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FB6B8200C7EE400187B8F /* LeftViewController.swift */; };
 		AE7FB6BE200DA1B000187B8F /* RevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7FB6BD200DA1B000187B8F /* RevealViewController.swift */; };
 		AEB68C672003635F00B11FB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB68C662003635F00B11FB0 /* AppDelegate.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE61FF712010715700173DCA /* NavigationBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationBar+Extension.swift"; sourceTree = "<group>"; };
+		AE61FF742010885700173DCA /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		AE61FF7620109C4C00173DCA /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		AE7FB6B8200C7EE400187B8F /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 		AE7FB6BC200CA78D00187B8F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		AE7FB6BD200DA1B000187B8F /* RevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE61FF702010713100173DCA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AE61FF712010715700173DCA /* NavigationBar+Extension.swift */,
+				AE61FF7620109C4C00173DCA /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AE61FF732010883200173DCA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AE61FF742010885700173DCA /* BaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		AEB68C5A2003635F00B11FB0 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +85,8 @@
 		AEB68C652003635F00B11FB0 /* RevealPractice */ = {
 			isa = PBXGroup;
 			children = (
+				AE61FF732010883200173DCA /* Base */,
+				AE61FF702010713100173DCA /* Extension */,
 				AEB68C782003645F00B11FB0 /* Public */,
 				AEB68C662003635F00B11FB0 /* AppDelegate.swift */,
 				AEB68C682003635F00B11FB0 /* ViewController.swift */,
@@ -158,10 +183,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB68C692003635F00B11FB0 /* ViewController.swift in Sources */,
+				AE61FF752010885700173DCA /* BaseNavigationController.swift in Sources */,
 				AE7FB6B9200C7EE400187B8F /* LeftViewController.swift in Sources */,
 				AE7FB6BE200DA1B000187B8F /* RevealViewController.swift in Sources */,
+				AE61FF722010715700173DCA /* NavigationBar+Extension.swift in Sources */,
 				AEB68C672003635F00B11FB0 /* AppDelegate.swift in Sources */,
 				AEB68C7B2003645F00B11FB0 /* SWRevealViewController.m in Sources */,
+				AE61FF7720109C4C00173DCA /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
