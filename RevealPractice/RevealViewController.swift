@@ -1,4 +1,4 @@
-//
+
 //  RevealViewController.swift
 //  RevealPractice
 //
@@ -26,8 +26,7 @@ class RevealViewController: SWRevealViewController, SWRevealViewControllerDelega
     
     func revealController(_ revealController: SWRevealViewController!, willMoveTo position: FrontViewPosition) {
         if position == .right {
-            
-            revealController.frontViewController.view.alpha = 0.8
+            revealController.frontViewController.view.alpha = 0.9
             revealController.frontViewController.view.isUserInteractionEnabled = false
         }
         else {
